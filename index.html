@@ -1,0 +1,88 @@
+<html> 
+<head> 
+	<script> 
+		 
+		function dis(val) 
+		{ 
+			document.getElementById("result").value+=val 
+		} 
+		
+		 
+		function solve() 
+		{ 
+			let x = document.getElementById("result").value 
+			let y = eval(x) 
+			document.getElementById("result").value = y 
+		} 
+		
+		 
+		function clr() 
+		{ 
+			document.getElementById("result").value = "" 
+		} 
+	</script> 
+	
+	<style> 
+		.title{ 
+		text-align:center;
+		margin-bottom: 10px;  
+		width: 210px; 
+		color:green; 
+		border:solid black 2px;
+		margin-left: 40% 
+		} 
+
+		input[type="button"] 
+		{ 
+		background-color:rgb(20,150,200); 
+		color: black; 
+		border-style: : inset;
+		width:100% 
+		} 
+
+		input[type="text"] 
+		{ 
+		background-color:white; 
+		border: solid black 2px; 
+		width:100% 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<div class = title style="">My_Calculator</div> 
+	<table border="2" style="margin-left: 500px ; margin-top: 60px ; width: 300px ; height: 150px"> 
+		<tr> 
+			<td colspan="3"><input type="text" id="result" style="height: 50px ; font-size: 20px" /></td> 
+			
+			<td><input type="button" value="c" onclick="clr()" style="height: 70px " /> </td> 
+		</tr> 
+		<tr> 
+			
+			<td><input type="button" value="1" onclick="dis('1')" style="height: 70px " /> </td> 
+			<td><input type="button" value="2" onclick="dis('2')" style="height: 70px " /> </td> 
+			<td><input type="button" value="3" onclick="dis('3')" style="height: 70px " /> </td> 
+			<td><input type="button" value="/" onclick="dis('/')" style="height: 70px " /> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" onclick="dis('4')" style="height: 70px " /> </td> 
+			<td><input type="button" value="5" onclick="dis('5')" style="height: 70px " /> </td> 
+			<td><input type="button" value="6" onclick="dis('6')" style="height: 70px " /> </td> 
+			<td><input type="button" value="-" onclick="dis('-')" style="height: 70px " /> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7" onclick="dis('7')" style="height: 70px " /> </td> 
+			<td><input type="button" value="8" onclick="dis('8')" style="height: 70px " /> </td> 
+			<td><input type="button" value="9" onclick="dis('9')" style="height: 70px " /> </td> 
+			<td><input type="button" value="+" onclick="dis('+')" style="height: 70px " /> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="." onclick="dis('.')" style="height: 70px " /> </td> 
+			<td><input type="button" value="0" onclick="dis('0')" style="height: 70px " /> </td> 
+			
+			<td><input type="button" value="=" onclick="solve()" style="height: 70px " /> </td> 
+			<td><input type="button" value="*" onclick="dis('*')" style="height: 70px " /> </td> 
+		</tr> 
+	</table> 
+</body> 
+</html> 
