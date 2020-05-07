@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script>
+        // Ignore this in your implementation
+        window.isMbscDemo = true;
+    </script>
+
+    <title>Segmented</title>
+
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <!-- Mobiscroll JS and CSS Includes -->
+    <link rel="stylesheet" href="css/mobiscroll.jquery.min.css">
+    <script src="js/mobiscroll.jquery.min.js"></script>
+
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="page-title">
+        <div class="container">
+            <h1 ><span class="fa fa-book"></span> Study Resources</h1>
+        </div>
+    </div>
+
+<nav>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Study Resources</a></li>
+        <li class="breadcrumb-item"><a href="#">Computer Science & Engineering</a></li>
+        <li class="breadcrumb-item"><a href="#">semester 1-New</a></li>
+        <li class="breadcrumb-item active">Physics 1 (BS-PH101)</li>
+    </ol>
+</nav>
+
+<div style="text-align: center;"><h2>Physics 1-(BS-PH101)</h2></div>
+  
+      <div mbsc-form class="container demo-segmented">
+        <div class=" mbsc-form-group">
+            
+            <label>
+                Syllabus
+                <input mbsc-segmented type="radio" name="range" id="aa" checked>
+            </label>
+            <label>
+                Study Material
+                <input mbsc-segmented type="radio" name="range" id="bb">
+            </label>
+            <label>
+                Video Tutorial
+                <input mbsc-segmented type="radio" name="range" id="cc">
+            </label>
+            <label>
+                Question Paper
+                <input mbsc-segmented type="radio" name="range" id="dd">
+            </label>
+
+            <label>
+                Suggestion
+                <input mbsc-segmented type="radio" name="range" id="ee">
+            </label>
+
+        </div>
+    </div>
+
+
+    <div class="container p-3" id="a">
+        <div class="progress">
+            <div class="progress-bar" style="width:20%"></div>
+        </div>
+    </div>
+
+    <div class="container p-3" style="display: none;" id="b">
+        <div class="progress">
+            <div class="progress-bar" style="width:40%"></div>
+        </div>
+    </div>
+    <div class="container p-3" style="display:none; ;" id="c">
+        <div class="progress">
+            <div class="progress-bar" style="width:60%"></div>
+        </div>
+    </div>
+    <div class="container p-3" style="display:none; ;" id="d">
+        <div class="progress">
+            <div class="progress-bar" style="width:80%"></div>
+        </div>
+    </div>
+    <div class="container p-3" style="display:none; " id="e">
+        <div class="progress">
+            <div class="progress-bar" style="width:100%"></div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#aa').click(function(){
+                $('#a').show()
+                $('#b').hide()
+                $('#c').hide()
+                $('#d').hide()
+                $('#e').hide()
+
+            })
+        })
+        $(document).ready(function(){
+            $('#bb').click(function(){
+                $('#b').show();
+                $('#a').hide();
+                $('#c').hide();
+                $('#d').hide();
+                $('#e').hide();
+            });
+        });
+        $(document).ready(function(){
+            $('#cc').click(function(){
+                $('#c').show();
+                $('#a').hide();
+                $('#b').hide();
+                $('#d').hide();
+                $('#e').hide();
+
+            });
+        });
+        $(document).ready(function(){
+            $('#dd').click(function(){
+                $('#d').show();
+                $('#a').hide();
+                $('#b').hide();
+                $('#c').hide();
+                $('#e').hide();
+            });
+        });
+        $(document).ready(function(){
+            $('#ee').click(function(){
+                $('#e').show();
+                $('#a').hide();
+                $('#b').hide();
+                $('#c').hide();
+                $('#d').hide();
+            });
+        });
+
+    </script>
+
+<div class="container p-5">       
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Syllabus</th>
+        <th></th>
+        <th>Option</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Syllabus</td>
+        <td></td>
+        <td><button class="btn btn-primary"><span class="iconify" data-icon="fa-solid:download" data-inline="false"></span> Download</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<script>
+
+    mobiscroll.settings = {
+        lang: 'en',                
+        theme: 'ios',              
+            themeVariant: 'light'
+    };
+</script>
+
+</body>
+</html>
