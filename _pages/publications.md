@@ -21,7 +21,7 @@ author_profile: true
 
 *Published in NeurIPS 2022*
 
-Jogendra Nath Kundu*, Suvaansh Bhambri*, Akshay Ravindra Kulkarni*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
+Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
 
 ---
 
@@ -29,6 +29,6 @@ Jogendra Nath Kundu*, Suvaansh Bhambri*, Akshay Ravindra Kulkarni*, **Hiran Sark
 
 *Published in ECCV 2022*
 
-Jogendra Nath Kundu*, Suvaansh Bhambri*, Akshay Ravindra Kulkarni*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
+Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
 
 ---
