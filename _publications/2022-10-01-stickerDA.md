@@ -1,7 +1,1 @@
----
-title: "Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation"
-collection: publications
-permalink: /publication/2022-10-01-stickerDA
-excerpt: 'We introduce a novel sticker based pretext task to aid main task domain adaptation.'
-venue: 'ECCV 2022'
----
+[Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation](https://arxiv.org/abs/2207.13247)
