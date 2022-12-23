@@ -19,7 +19,7 @@ author_profile: true
 
 [Subsidiary Prototype Alignment for Universal Domain Adaptation](https://arxiv.org/abs/2210.15909)
 
-*Published in NeurIPS 2022*
+Published in NeurIPS 2022
 
 Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
 
