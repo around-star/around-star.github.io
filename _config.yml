@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hiran Sarkar"
 title_separator          : "-"
 name                     : &name "Hiran Sarkar"
-description              : &description "Undergrad at Netaji Subhash Engineering College. Dabbling in 3D computer vision."
+description              : &description "Researcher at Sony Research India. Dabbling in 3D computer vision."
 url                      : https://around-star.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "around-star/around-star.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Hiran Sarkar"
   avatar           : "profile.png"
-  bio              : "Undergrad at Netaji Subhash Engineering College. Dabbling in 3D computer vision | Former Research Intern @IISc"
+  bio              : "Researcher at Sony Research India | Research Intern at TUM. Dabbling in 3D computer vision | Former Research Intern @IISc"
   location         : "Kolkata, India"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
