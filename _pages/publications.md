@@ -17,6 +17,14 @@ author_profile: true
 
 ---
 
+[Open-Set Object Detection By Aligning Known Class Representations]
+
+*Published in WACV 2024 **(Oral)***
+
+**Hiran Sarkar**, Vishal Chudasama, Naoyuki Onoe, Pankaj Wasnik, Vineet Balasubramanian
+
+---
+
 [Subsidiary Prototype Alignment for Universal Domain Adaptation](https://arxiv.org/abs/2210.15909)
 
 *Published in NeurIPS 2022*
