@@ -17,17 +17,17 @@ author_profile: true
 
 ---
 
-Open-Set Object Detection By Aligning Known Class Representations
+**Open-Set Object Detection By Aligning Known Class Representations**
 
 *Published in WACV 2024 **(Oral)***
 
 **Hiran Sarkar**, Vishal Chudasama, Naoyuki Onoe, Pankaj Wasnik, Vineet Balasubramanian
 
-[Paper](Coming Soon)
+[Paper(Coming Soon)]
 
 ---
 
-Subsidiary Prototype Alignment for Universal Domain Adaptation
+**Subsidiary Prototype Alignment for Universal Domain Adaptation**
 
 *Published in NeurIPS 2022*
 
@@ -37,7 +37,7 @@ Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran S
 
 ---
 
-Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation
+**Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation**
 
 *Published in ECCV 2022*
 
