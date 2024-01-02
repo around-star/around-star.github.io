@@ -23,7 +23,7 @@ author_profile: true
 
 **Hiran Sarkar**, Vishal Chudasama, Naoyuki Onoe, Pankaj Wasnik, Vineet Balasubramanian
 
-[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Sarkar_Open-Set_Object_Detection_by_Aligning_Known_Class_Representations_WACV_2024_paper.pdf)
+[[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Sarkar_Open-Set_Object_Detection_by_Aligning_Known_Class_Representations_WACV_2024_paper.pdf)]
 
 ---
 
