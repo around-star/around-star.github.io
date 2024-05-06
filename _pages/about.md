@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I am collaborating with <a href="https://www.cs.cit.tum.de/camp/members/benjamin-busam/" style="text-decoration:none;">Benjamin Busam</a> at <a href="https://www.cs.cit.tum.de/camp/start/" style="text-decoration:none;">TUM</a>. My primary research focus is on dynamic scene reconstruction. I am also a research intern at Sony Research India where I have the fortune of being advised by <a href="https://people.iith.ac.in/vineethnb/" style="text-decoration:none;">Vineeth Balasubramanian</a>, where my focus is on various settings (open set, incremental, few-shot) concerning object detection. 
-
-My previous research work at <a href="https://iisc.ac.in/" style="text-decoration:none;">Indian Institute of Science, Bangalore</a> advised by <a href="http://cds.iisc.ac.in/faculty/venky/" style="text-decoration:none;">Venkatesh Babu</a> has delved into domain adaptation and domain generalization and have published two papers in this direction. 
+I am a Researcher at <a href="https://www.sonyresearchindia.com/" style="text-decoration:none;">Sony Research India</a>, where I focus on multiple 2D vision tasks including open-set, incremental, few shot object detection. I am also fortunate enough to collaborate with <a href="https://www.cs.cit.tum.de/camp/members/benjamin-busam/" style="text-decoration:none;">Benjamin Busam</a> at <a href="https://www.cs.cit.tum.de/camp/start/" style="text-decoration:none;">TUM</a> on 4D scene reconstruction. Previously, I have collaborated with <a href="http://cds.iisc.ac.in/faculty/venky/" style="text-decoration:none;">Venkatesh Babu</a> at  <a href="https://iisc.ac.in/" style="text-decoration:none;">Indian Institute of Science, Bangalore</a> on the topic of domain adaptation and domain generalization.
 
 My current research interests lie in topics mostly surrounding **3D vision:**
-* Rigid and Non-rigid Scene Reconstruction
+* Rigid & Non-rigid Scene Reconstruction and Generation
 * Novel View Synthesis
 * Implicit Representation or coordinate-based networks
+* 2D & 3D Pose Estimation
 * Generative Modeling
+* Video Understanding
