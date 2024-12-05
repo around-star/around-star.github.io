@@ -17,6 +17,15 @@ author_profile: true
 
 ---
 
+**Beyond Few-shot Object Detection: A Detailed Survey**
+
+*arXiv 2024*
+
+**Hiran Sarkar\***, Vishal Chudasama\*, Pankaj Wasnik, Vineet Balasubramanian, Jayateja Kalla
+[[Paper](https://arxiv.org/pdf/2408.14249)]
+
+---
+
 **Open-Set Object Detection By Aligning Known Class Representations**
 
 *Published in WACV 2024 **(Oral)***
