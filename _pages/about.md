@@ -17,3 +17,6 @@ My current research interests lie in topics mostly surrounding **3D vision:**
 * 2D & 3D Pose Estimation
 * Generative Modeling
 * Video Understanding
+
+
+*I am looking for a 2025 Fall PhD position*
