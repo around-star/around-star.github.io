@@ -242,12 +242,11 @@ span.highlight {
 }
 
 .badge {
-  position: absolute;
-  top: 8px;
-  left: 8px;
   background: #e63946;
   color: white;
-  padding: 3px 8px;
   font-size: 12px;
+  padding: 2px 6px;
   border-radius: 4px;
+  margin-left: 6px;
+  vertical-align: middle;
 }
