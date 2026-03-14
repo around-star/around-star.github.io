@@ -230,6 +230,14 @@ span.highlight {
   margin: auto;
 }
 
+.video-grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
 .video-item {
   text-align: center;
 }
