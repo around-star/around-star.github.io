@@ -171,14 +171,21 @@ span.highlight {
     padding: 3px;
 }
 
-.video-compare-container {
+/* .video-compare-container {
   width: 63%;
   margin: 0 auto;
   position: relative;
   display: block;
   line-height: 0;
-}
+} */
 
+.video-compare-container {
+  width: 63%;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
 .video {
   width: 100%;
   height: auto;
