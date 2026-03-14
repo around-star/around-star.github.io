@@ -210,8 +210,6 @@ span.highlight {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .cropped-video{
