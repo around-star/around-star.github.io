@@ -273,6 +273,9 @@
 	                <br><br>
                     
                	</div>
+				<h4>
+	                Oscillating Ball
+	            </h4>
 				<div class="video-grid">
 					<div class="video-item video-compare-container">
 	                    <video id="dnerf" loop playsinline autoPlay muted src="video/oscillating_ball_dnerf_compare.mp4" onplay="resizeAndPlay(this)"></video>
@@ -292,16 +295,20 @@
 	                </div>
 				</div>
 
+				<h4>
+	                Bifurcating Hill
+	            </h4>
+
 				<div class="video-grid">
 					<div class="video-item video-compare-container">
 	                    <video id="simvp_hill" loop playsinline autoPlay muted src="video/bifurcating_hill_simvp_compare.mp4" onplay="resizeAndPlay(this)"></video>
 	                    <canvas class="videoMerge" id="simvp_hillMerge"></canvas>
-						<div class="method">D-NeRF</div>
+						<div class="method">SimVP</div>
 	                </div>
 					<div class="video-item video-compare-container">
 	                    <video id="vid_ode_hill" loop playsinline autoPlay muted src="video/bifurcating_hill_vid_ode_compare.mp4" onplay="resizeAndPlay(this)"></video>
 	                    <canvas class="videoMerge" id="vid_ode_hillMerge"></canvas>
-						<div class="method">Node-RF</div>
+						<div class="method">Vid-ODE</div>
 	                </div>
 					<div class="video-item video-compare-container ours-video">
 						<div class="badge">Ours</div>
