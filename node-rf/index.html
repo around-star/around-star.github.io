@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:image" content="https://around-star.github.io/node-rf/img/refnerf_titlecard.jpg">
+    <meta property="og:image" content="https://around-star.github.io/node-rf/img/">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="">
     <meta name="twitter:title" content="Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs">
     <meta name="twitter:description" content="Predicting scene dynamics from visual observations is challenging. Existing methods capture dynamics only within observed boundaries failing to extrapolate far beyond the training sequence. Node-RF (Neural ODE-based NeRF) overcomes this limitation by integrating Neural Ordinary Differential Equations (NODEs) with dynamic Neural Radiance Fields (NeRFs), enabling a continuous-time, spatiotemporal representation that generalizes beyond observed trajectories at constant memory cost. From visual input, Node-RF learns an implicit scene state that evolves over time via an ODE solver, propagating feature embeddings via differential calculus. A NeRF-based renderer interprets calculated embeddings to synthesize arbitrary views for long-range extrapolation. Training on multiple motion sequences with shared dynamics allows for generalization to unseen conditions. Our experiments demonstrate that Node-RF can characterize abstract system behavior without explicit model to identify critical points for future predictions.">
-    <meta name="twitter:image" content="https://around-star.github.io/node-rf/img/refnerf_titlecard.jpg">
+    <meta name="twitter:image" content="https://around-star.github.io/node-rf/img/">
 
 
     <!-- mirror: F0%9F%AA%9E&lt -->
@@ -148,10 +148,10 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
-                    Long-term extrapolation of Single Sequence
+                    Long-term extrapolation of single sequence
                 </h3>
                 <div class="text-justify">
-                    Node-RF learns from a single dynamic scene, and manages to predict the evolution of the motion beyond the training window.
+                    Node-RF learns from a single dynamic scene and predicts the motion evolution beyond the training window.
                     <br><br>
                     
                 </div>
@@ -292,6 +292,7 @@
 	                    <canvas class="videoMerge" id="gtMerge"></canvas>
 						<div class="method">GT</div>
 	                </div>
+					<div class="method">Oscillating Ball</div>
 				</div>
 
 				<!-- <h4>
@@ -322,62 +323,12 @@
 	                    <canvas class="videoMerge" id="gt_hillMerge"></canvas>
 						<div class="method">GT</div>
 	                </div>
+				<div class="method">Bifurcating Hill</div>
 				</div>
 				
 			</div>
         </div>
 
-        <!-- <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Results on Captured Scenes
-                </h3>
-                Our method also produces accurate renderings and surface normals from captured photographs:
-                <div class="video-compare-container" style="width: 100%">
-                    <video class="video" id="toycar" loop playsinline autoPlay muted src="video/oscillating_ball_ours_compare.mp4" onplay="resizeAndPlay(this)"></video>
-                    <canvas height=0 class="videoMerge" id="toycarMerge"></canvas>
-                </div>
-			</div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Scene Editing
-                </h3>
-                <div class="text-justify">
-                    We show that our structured representation of the directional MLP allows for scene editing after training. Here we show that we can convincingly change material properties.
-                    <br>
-                    We can increase and decrease material roughness:
-                </div>
-
-                <div style="overflow: hidden;">
-                    <video id="editing-materials" width="100%" playsinline autoplay loop muted style="margin-top: -5%;">
-                        <source src="video/materials_rougher_smoother.mp4" type="video/mp4" />
-                    </video>
-                </div>
-
-                <div class="text-justify">
-                    We can also control the amounts of specular and diffuse colors, or change the diffuse color without affecting the specular reflections:
-                </div>
-                
-                <table width="100%">
-                    <tr>
-                        <td align="left" valign="top" width="50%">
-                            <video id="v2" width="100%" playsinline autoplay loop muted>
-                                <source src="video/car_color2.mp4" type="video/mp4" />
-                            </video>
-                        </td>
-                        <td align="left" valign="top" width="50%">
-                            <video id="v3" width="100%" playsinline autoplay loop muted>
-                                <source src="video/car_color3.mp4" type="video/mp4" />
-                            </video>
-                        </td>
-                    </tr>
-                </table>
-
-            </div>
-        </div> -->
 
             
         <div class="row">
