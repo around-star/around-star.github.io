@@ -267,14 +267,22 @@
                 <h3>
                     Mutliple Sequences Generalization
                 </h3>
+				<div class="video-compare-container" style="width: 100%">
+                    <video class="video" id="dnerf" loop playsinline autoPlay muted src="video/oscillating_ball_dnerf_compare.mp4" onplay="resizeAndPlay(this)"></video>
+                    <canvas height=0 class="videoMerge" id="dnerfMerge"></canvas>
+                </div>
+				<div class="video-compare-container" style="width: 100%">
+                    <video class="video" id="noderf" loop playsinline autoPlay muted src="video/oscillating_ball_ours_compare.mp4" onplay="resizeAndPlay(this)"></video>
+                    <canvas height=0 class="videoMerge" id="noderfMerge"></canvas>
+                </div>
                 <div class="video-compare-container">
-                    <video class="video" id="musclecar" loop playsinline autoPlay muted src="video/oscillating_ball_gt_compare.mp4" onplay="resizeAndPlay(this)"></video>
-                    <canvas height=0 class="videoMerge" id="musclecarMerge"></canvas>
+                    <video class="video" id="gt" loop playsinline autoPlay muted src="video/oscillating_ball_gt_compare.mp4" onplay="resizeAndPlay(this)"></video>
+                    <canvas height=0 class="videoMerge" id="gtMerge"></canvas>
                 </div>
 			</div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Results on Captured Scenes
@@ -324,7 +332,7 @@
                 </table>
 
             </div>
-        </div>
+        </div> -->
 
             
         <div class="row">
@@ -335,12 +343,12 @@
                 <div class="form-group col-md-10 col-md-offset-1">
                     <textarea id="bibtex" class="form-control" readonly>
 @article{verbin2022refnerf,
-    title={{Ref-NeRF}: Structured View-Dependent Appearance for
-           Neural Radiance Fields},
-    author={Dor Verbin and Peter Hedman and Ben Mildenhall and
-            Todd Zickler and Jonathan T. Barron and Pratul P. Srinivasan},
+    title={{Node-RF}: Learning Generalized Continuous
+Space-Time Scene Dynamics with Neural ODE-based NeRFs},
+    author={Hiran Sarkar and Liming Kuang and Yordanka Velikova and
+            Benjamin Busam},
     journal={CVPR},
-    year={2022}
+    year={2026}
 }</textarea>
                 </div>
             </div>
