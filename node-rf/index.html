@@ -291,6 +291,31 @@
 						<div class="method">GT</div>
 	                </div>
 				</div>
+
+				<div class="video-grid">
+					<div class="video-item video-compare-container">
+	                    <video id="simvp_hill" loop playsinline autoPlay muted src="video/bifurcating_hill_simvp_compare.mp4" onplay="resizeAndPlay(this)"></video>
+	                    <canvas class="videoMerge" id="simvp_hillMerge"></canvas>
+						<div class="method">D-NeRF</div>
+	                </div>
+					<div class="video-item video-compare-container">
+	                    <video id="vid_ode_hill" loop playsinline autoPlay muted src="video/bifurcating_hill_vid_ode_compare.mp4" onplay="resizeAndPlay(this)"></video>
+	                    <canvas class="videoMerge" id="vid_ode_hillMerge"></canvas>
+						<div class="method">Node-RF</div>
+	                </div>
+					<div class="video-item video-compare-container ours-video">
+						<div class="badge">Ours</div>
+	                    <video id="noderf_hill" loop playsinline autoPlay muted src="video/bifurcating_hill_ours_compare.mp4" onplay="resizeAndPlay(this)"></video>
+	                    <canvas class="videoMerge" id="noderf_hillMerge"></canvas>
+						<div class="method">Node-RF</div>
+	                </div>
+	                <div class="video-item video-compare-container">
+	                    <video id="gt_hill" loop playsinline autoPlay muted src="video/bifurcating_hill_gt_compare.mp4" onplay="resizeAndPlay(this)"></video>
+	                    <canvas class="videoMerge" id="gt_hillMerge"></canvas>
+						<div class="method">GT</div>
+	                </div>
+				</div>
+				
 			</div>
         </div>
 
