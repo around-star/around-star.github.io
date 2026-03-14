@@ -249,9 +249,15 @@ span.highlight {
   color: #c40000;
 }
 
-.ours-video {
+/* .ours-video {
   position: relative;
+} */
+.ours-video {
+  border: 3px solid #e63946;
+  border-radius: 8px;
+  padding: 3px;
 }
+
 .ours-video video {
   border: 4px solid #e63946;
   box-shadow: 0 0 12px rgba(230,57,70,0.5);
