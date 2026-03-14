@@ -203,3 +203,22 @@ span.highlight {
     overflow:hidden;
     display:block;
 }
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.video-item video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-item p {
+  margin-top: 8px;
+  font-size: 16px;
+}
