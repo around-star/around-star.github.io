@@ -23,7 +23,7 @@ author_profile: true
 
 **Hiran Sarkar**, Liming Kuang, Yordanka Velikova, Benjamin Busam
 
-[[Paper](https://arxiv.org/pdf/2603.12078)] [[Project](https://around-star.github.io/node-rf/)]
+[[Paper](https://arxiv.org/pdf/2603.12078)] [[Project Page](https://around-star.github.io/node-rf/)]
 
 ---
 
@@ -53,7 +53,7 @@ author_profile: true
 
 Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
 
-[[Paper](https://arxiv.org/abs/2210.15909)]
+[[Paper](https://arxiv.org/abs/2210.15909)] [[Project Page](https://sites.google.com/view/spa-unida)]
 
 ---
 
@@ -63,6 +63,6 @@ Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran S
 
 Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
 
-[[Paper](https://arxiv.org/abs/2207.13247)]
+[[Paper](https://arxiv.org/abs/2207.13247)] [[Project Page](https://sites.google.com/view/sticker-sfda)]
 
 ---
