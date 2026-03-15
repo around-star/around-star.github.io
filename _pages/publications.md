@@ -17,6 +17,16 @@ author_profile: true
 
 ---
 
+**Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs**
+
+*CVPRE 2026*
+
+**Hiran Sarkar**, Liming Kuang, Yordanka Velikova, Benjamin Busam
+
+[[Paper](https://arxiv.org/pdf/2603.12078)] [[Project](https://around-star.github.io/node-rf/)]
+
+---
+
 **Beyond Few-shot Object Detection: A Detailed Survey**
 
 *arXiv 2024*
