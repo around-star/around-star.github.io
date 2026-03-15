@@ -171,9 +171,17 @@ span.highlight {
     padding: 3px;
 } */
 
-.author-table td {
-  padding: 0 20px;
+.author-table, th, td {
+    table-layout: fixed;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+    width: auto;
+    min-width: 50%;
+    padding: 0 20px;
 }
+
 
 /* .video-compare-container {
   width: 63%;
