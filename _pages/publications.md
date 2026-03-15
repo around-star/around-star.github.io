@@ -19,7 +19,7 @@ author_profile: true
 
 **Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs**
 
-*CVPRE 2026*
+*CVPR 2026*
 
 **Hiran Sarkar**, Liming Kuang, Yordanka Velikova, Benjamin Busam
 
@@ -39,7 +39,7 @@ author_profile: true
 
 **Open-Set Object Detection By Aligning Known Class Representations**
 
-*Published in WACV 2024 **(Oral)***
+*WACV 2024 **(Oral)***
 
 **Hiran Sarkar**, Vishal Chudasama, Naoyuki Onoe, Pankaj Wasnik, Vineet Balasubramanian
 
@@ -49,7 +49,7 @@ author_profile: true
 
 **Subsidiary Prototype Alignment for Universal Domain Adaptation**
 
-*Published in NeurIPS 2022*
+*NeurIPS 2022*
 
 Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
 
@@ -59,7 +59,7 @@ Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran S
 
 **Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation**
 
-*Published in ECCV 2022*
+*ECCV 2022*
 
 Jogendra Nath Kundu\*, Suvaansh Bhambri\*, Akshay Ravindra Kulkarni\*, **Hiran Sarkar**, Varun Jampani, Venkatesh Babu Radhakrishnan
 
