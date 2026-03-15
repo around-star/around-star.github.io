@@ -48,7 +48,7 @@
                 </small>
             </h2>
         </div>
-        <div class="row" id="author-row" style="margin:0 auto;">
+        <!-- <div class="row" id="author-row" style="margin:0 auto;">
             <div class="col-md-12 text-center" style="display: table; margin:0 auto">
                 <table class="author-table" id="author-table">
                     <tr>
@@ -81,7 +81,45 @@
                         </td>
                 </table>
             </div>
-        </div>
+        </div> -->
+		<div class="row" id="author-row" style="margin:0 auto;">
+  <div class="col-md-12 text-center" style="display: table; margin:0 auto">
+
+    <table class="author-table" id="author-table">
+      <tr>
+        <td>
+          <a style="text-decoration:none" href="https://around-star.github.io/">
+            Hiran Sarkar<sup>1</sup>
+          </a>
+        </td>
+
+        <td>
+          <a style="text-decoration:none" href="https://www.linkedin.com/in/limingk/">
+            Liming Kuang<sup>1,2</sup>
+          </a>
+        </td>
+
+        <td>
+          <a style="text-decoration:none" href="https://danivelikova.github.io/">
+            Yordanka Velikova<sup>1,2</sup>
+          </a>
+        </td>
+
+        <td>
+          <a style="text-decoration:none" href="https://www.professoren.tum.de/en/busam-benjamin">
+            Benjamin Busam<sup>1,2</sup>
+          </a>
+        </td>
+      </tr>
+    </table>
+
+    <div style="margin-top:10px;">
+      <sup>1</sup> Technical University of Munich &nbsp;&nbsp;
+      <sup>2</sup> Munich Center for Machine Learning
+    </div>
+
+  </div>
+</div>
     </div>
     <script>
         document.getElementById('author-row').style.maxWidth = document.getElementById("title-row").clientWidth + 'px';
@@ -151,7 +189,7 @@
                     Long-term extrapolation of single sequence
                 </h3>
                 <div class="text-justify">
-                    Node-RF learns from a single dynamic scene and predicts the motion evolution beyond the training window.
+					Node-RF learns from a single dynamic scene and predicts the motion evolution beyond the training window. By applying a neural ODE to the full state, the model inherits an inductive bias toward physically plausible dynamics.
                     <br><br>
                     
                 </div>
