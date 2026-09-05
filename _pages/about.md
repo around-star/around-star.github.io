@@ -17,3 +17,5 @@ My current research interests lie in topics mostly surrounding **3D vision:**
 * Generative Modeling
 * Video Understanding
 
+_Looking for a Research Internship position for 2027_
+<em><span style="color: #2f80ed;">Looking for a Research Internship position for 2027</span></em>
